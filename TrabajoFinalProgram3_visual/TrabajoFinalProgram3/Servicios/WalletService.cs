@@ -82,6 +82,9 @@ namespace TrabajoFinalProgram3.Services
 
             return portfolio.Sum(p => p.ValorEnPesos);
         }
-
+        public async Task<Cotizacion> ObtenerCotizacionAsync(string codigoCripto)
+        {
+            return await _criptoYa.ObtenerCotizacionAsync(codigoCripto);
+        }
     }
 }

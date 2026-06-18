@@ -1,33 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\",
+  "WorkspaceRootPath": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajocriptomonedas\\trabajofinalprogram3_visual\\trabajofinalprogram3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\walletapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\controllers\\walletapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajocriptomonedas\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajocriptomonedas\\trabajofinalprogram3_visual\\trabajofinalprogram3\\servicios\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\servicios\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\servicios\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajocriptomonedas\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\portfoliopesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\portfoliopesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\models\\portfoliopesos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajocriptomonedas\\trabajofinalprogram3_visual\\trabajofinalprogram3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajocriptomonedas\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\saldocripto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\saldocripto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\models\\saldocripto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajocriptomonedas\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\respuestabelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\respuestabelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\models\\respuestabelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,15 +46,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WalletApiController.cs",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T20:24:19.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WalletService.cs",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T17:33:53.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Program.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Program.cs",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Program.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T20:21:01.925Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PortfolioPesos.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\PortfolioPesos.cs",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\PortfolioPesos.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Models\\PortfolioPesos.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\PortfolioPesos.cs",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\PortfolioPesos.cs",
               "RelativeToolTip": "TrabajoFinalProgram3\\Models\\PortfolioPesos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,24 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WalletService.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
-              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
-              "RelativeToolTip": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADwv1MAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T17:33:53.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "TrabajoFinalProgram3\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -81,55 +115,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TrabajoFinalProgram3\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-18T17:30:49.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TrabajoFinalProgram3\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T17:27:16.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T17:30:49.98Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SaldoCripto.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
-              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
-              "RelativeToolTip": "TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T17:24:19.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T17:27:16.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "SaldoCripto.cs",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Models\\SaldoCripto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T17:24:19.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "RespuestaBelo.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\RespuestaBelo.cs",
+              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\RespuestaBelo.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Models\\RespuestaBelo.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TrabajoCriptomonedas\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\RespuestaBelo.cs",
+              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\RespuestaBelo.cs",
               "RelativeToolTip": "TrabajoFinalProgram3\\Models\\RespuestaBelo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T17:23:55.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T17:23:55.791Z"
             }
           ]
         }

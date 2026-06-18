@@ -1,0 +1,154 @@
+<template>
+
+<div class="container-fluid">
+
+    <h1 class="dashboard-title">
+
+        Comprar Criptomoneda
+
+    </h1>
+
+    <div class="row">
+
+        <div class="col-lg-7">
+
+            <div class="wallet-card">
+
+                <div class="mb-4">
+
+                    <label class="form-label">
+
+                        Criptomoneda
+
+                    </label>
+
+                    <select class="form-select" v-model="criptomoneda">
+
+                        <option value="btc">Bitcoin (BTC)</option>
+
+                        <option value="eth">Ethereum (ETH)</option>
+
+                        <option value="usdc">USDC</option>
+
+                    </select>
+
+                </div>
+
+                <div class="mb-4">
+
+                    <label class="form-label">
+
+                        Cantidad
+
+                    </label>
+
+                    <input
+                        class="form-control"
+                        type="number"
+                        placeholder="Ingrese la cantidad"
+                        v-model="cantidad">
+
+                </div>
+
+                <button class="btn btn-primary">
+
+                    Comprar
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-5">
+
+            <div class="wallet-card">
+
+                <h5 class="dashboard-card-title">
+
+                    Cotización
+
+                </h5>
+
+                <h2 class="dashboard-card-value">
+
+                    {{ cotizacion ? '$ ' + cotizacion.precioCompra.toLocaleString('es-AR') : '--' }}
+
+                </h2>
+
+            </div>
+
+            <div class="wallet-card">
+
+                <h5 class="dashboard-card-title">
+
+                    Total a pagar
+
+                </h5>
+
+                <h2 class="dashboard-card-value">
+
+                    {{ '$ ' + total.toLocaleString('es-AR') }}
+
+                </h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</template>
+
+<script setup>
+
+import { ref, watch, onMounted, computed } from 'vue'
+import { obtenerCotizacion } from '../services/api'
+
+const criptomoneda = ref("btc")
+
+const cantidad = ref(0)
+
+const cotizacion = ref(null)
+
+const total = computed(() => {
+
+    if (!cotizacion.value)
+        return 0
+
+    return cantidad.value * cotizacion.value.precioCompra
+
+})
+
+async function cargarCotizacion() {
+
+    try {
+
+        cotizacion.value = await obtenerCotizacion(criptomoneda.value)
+
+        console.log(cotizacion.value)
+
+    }
+    catch (error) {
+
+        console.error(error)
+
+    }
+
+}
+
+onMounted(() => {
+
+    cargarCotizacion()
+
+})
+
+watch(criptomoneda, () => {
+
+    cargarCotizacion()
+
+})
+
+</script>

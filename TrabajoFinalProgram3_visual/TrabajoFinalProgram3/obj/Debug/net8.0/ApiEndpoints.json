@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "ObtenerCotizacion",
+    "RelativePath": "api/WalletApi/cotizacion/{codigoCripto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoCripto",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "ObtenerPatrimonio",
+    "RelativePath": "api/WalletApi/patrimonio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

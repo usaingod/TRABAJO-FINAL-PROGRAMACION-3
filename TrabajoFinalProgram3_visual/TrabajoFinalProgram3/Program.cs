@@ -13,10 +13,18 @@ builder.Services.AddHttpClient();
 builder.Services.AddScoped<CriptoYa>();
 builder.Services.AddScoped<WalletService>();
 
-builder.Services.AddControllersWithViews();
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("VuePolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:5175")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -33,7 +41,15 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseCors("VuePolicy");
+
 app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllers();
 
 app.MapControllerRoute(
     name: "default",
