@@ -1,0 +1,62 @@
+﻿@model TrabajoFinalProgram3.Models.Transaccion
+
+@{
+    ViewData["Title"] = "Registrar Transaccion";
+}
+
+<h1>Registrar Transaccion</h1>
+
+<h4>Nueva Operacion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodigoCripto" class="control-label">
+                    Criptomoneda
+                </label>
+
+                <select asp-for="CodigoCripto" class="form-control">
+                    <option value="btc">Bitcoin (BTC)</option>
+                    <option value="eth">Ethereum (ETH)</option>
+                    <option value="usdt">Tether (USDT)</option>
+                    <option value="usdc">USD Coin (USDC)</option>
+                    <option value="sol">Solana (SOL)</option>
+                </select>
+
+                <span asp-validation-for="CodigoCripto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Accion" class="control-label">
+                    Operación
+                </label>
+
+                <select asp-for="Accion" class="form-control">
+                    <option value="Compra">Compra</option>
+                    <option value="Venta">Venta</option>
+                </select>
+
+                <span asp-validation-for="Accion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CantidadCripto" class="control-label"></label>
+                <input asp-for="CantidadCripto" class="form-control" />
+                <span asp-validation-for="CantidadCripto" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <input type="submit"
+                       value="Registrar Transacción"
+                       class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver al Historial</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

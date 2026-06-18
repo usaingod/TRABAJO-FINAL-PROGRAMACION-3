@@ -1,0 +1,61 @@
+﻿@model IEnumerable<TrabajoFinalProgram3.Models.Transaccion>
+
+@{
+    ViewData["Title"] = "Historial de Transacciones";
+}
+
+<h1>Historial de transacciones</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        Registrar Transaccion
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Criptomoneda
+            </th>
+            <th>
+                Operacion
+            </th>
+            <th>
+                Cantidad
+            </th>
+            <th>
+                Monto ($)
+            </th>
+            <th>
+                Fecha y Hora
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoCripto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Accion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadCripto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dinero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaHora)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">
+        Patrimonio Total (Prueba)
+    </h1>
+
+    @if (ViewBag.Patrimonio != null)
+    {
+        <h2>@ViewBag.Patrimonio.ToString("C")</h2>
+    }
+    else
+    {
+        <p>No fue posible obtener el patrimonio.</p>
+    }
+
+</div>
