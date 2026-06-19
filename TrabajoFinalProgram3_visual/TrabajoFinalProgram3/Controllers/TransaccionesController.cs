@@ -52,7 +52,7 @@ namespace TrabajoFinalProgram3.Controllers
         public IActionResult Create()
         {
             return View();
-        }
+        }    
 
         // POST: Transacciones/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -98,9 +98,6 @@ namespace TrabajoFinalProgram3.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
-
-
-
         }
 
         // GET: Transacciones/Edit/5

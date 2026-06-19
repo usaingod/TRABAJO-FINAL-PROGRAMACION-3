@@ -5,5 +5,7 @@
         public string CodigoCripto { get; set; } = string.Empty;
 
         public decimal ValorEnPesos { get; set; }
+
+        public decimal Cantidad { get; set; }
     }
 }

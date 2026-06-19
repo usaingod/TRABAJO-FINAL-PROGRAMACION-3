@@ -33,26 +33,26 @@ namespace TrabajoFinalProgram3.Services
         }
         public async Task<List<SaldoCripto>> ObtenerPortfolioAsync()
         {
-            // Obtener las criptomonedas distintas que existen en las transacciones
-            var criptomonedas = await _context.Transacciones
-                .Select(t => t.CodigoCripto)
-                .Distinct()
-                .ToListAsync();
+            // Criptomonedas soportadas por la aplicación
+            List<string> criptomonedas = new()
+            {
+                "btc",
+                "eth",
+                "usdc",
+                "sol"
+            };
 
             List<SaldoCripto> portfolio = new();
 
             foreach (var cripto in criptomonedas)
             {
-                decimal saldo = await ObtenerSaldoAsync(cripto);
-
-                if (saldo > 0)
+                decimal saldo = await ObtenerSaldoAsync(cripto);                
+                portfolio.Add(new SaldoCripto
                 {
-                    portfolio.Add(new SaldoCripto
-                    {
-                        CodigoCripto = cripto,
-                        Cantidad = saldo
-                    });
-                }
+                  CodigoCripto = cripto,
+                  Cantidad = saldo
+                });
+                
             }
 
             return portfolio;
@@ -70,6 +70,7 @@ namespace TrabajoFinalProgram3.Services
                 portfolioPesos.Add(new PortfolioPesos
                 {
                     CodigoCripto = item.CodigoCripto,
+                    Cantidad = item.Cantidad,
                     ValorEnPesos = item.Cantidad * cotizacion.PrecioVenta
                 });
             }
@@ -86,5 +87,41 @@ namespace TrabajoFinalProgram3.Services
         {
             return await _criptoYa.ObtenerCotizacionAsync(codigoCripto);
         }
+        public async Task ComprarAsync(Transaccion transaccion)
+        {
+            var cotizacion = await _criptoYa.ObtenerCotizacionAsync(transaccion.CodigoCripto);
+
+            transaccion.Accion = "Compra";
+
+            transaccion.Dinero = transaccion.CantidadCripto * cotizacion.PrecioCompra;
+
+            transaccion.FechaHora = DateTime.Now;
+
+            _context.Transacciones.Add(transaccion);
+
+            await _context.SaveChangesAsync();
+        }
+        public async Task VenderAsync(Transaccion transaccion)
+        {
+            decimal saldo = await ObtenerSaldoAsync(transaccion.CodigoCripto);
+
+            if (saldo < transaccion.CantidadCripto)
+            {
+                throw new Exception("Saldo insuficiente para realizar la venta.");
+            }
+
+            var cotizacion = await _criptoYa.ObtenerCotizacionAsync(transaccion.CodigoCripto);
+
+            transaccion.Accion = "Venta";
+
+            transaccion.Dinero = transaccion.CantidadCripto * cotizacion.PrecioVenta;
+
+            transaccion.FechaHora = DateTime.Now;
+
+            _context.Transacciones.Add(transaccion);
+
+            await _context.SaveChangesAsync();
+        }
+
     }
 }

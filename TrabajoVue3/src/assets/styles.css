@@ -323,6 +323,85 @@ body{
     color: white;
 
 }
+/* =========================================
+   TOAST
+========================================= */
+
+.toast-personalizado{
+
+    position: fixed;
+
+    bottom: 25px;
+
+    left: 25px;
+
+    background: var(--card);
+
+    color: var(--text);
+
+    border-left: 5px solid var(--primary);
+
+    padding: 15px 22px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,.35);
+
+    z-index: 9999;
+
+    min-width: 280px;
+
+    font-weight: 600;
+
+}
+.fade-enter-active,
+.fade-leave-active{
+
+    transition: all .35s ease;
+
+}
+
+.fade-enter-from,
+.fade-leave-to{
+
+    opacity: 0;
+
+    transform: translateY(20px);
+
+}
+/* =========================================
+   PORTFOLIO
+========================================= */
+
+.portfolio-value{
+
+    color: #FFFFFF !important;
+
+    font-size: 1.8rem;
+
+    font-weight: 700;
+
+    margin-top: 12px;
+
+}
+.portfolio-price{
+
+    color: #FFFFFF;
+
+    font-size: 1.5rem;
+
+    font-weight: 700;
+
+    margin-top: 10px;
+
+}
+.portfolio-card{
+
+    max-width: 700px;
+
+    padding: 18px 28px;
+
+}
 
 
 /* =========================================

@@ -50,7 +50,7 @@ onMounted(async () => {
 
                 <h2 class="dashboard-card-value">
 
-                    $ {{ patrimonio }}
+                    $ {{ patrimonio.toLocaleString()}}
 
                 </h2>
 

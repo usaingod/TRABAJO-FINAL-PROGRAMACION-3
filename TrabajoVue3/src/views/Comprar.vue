@@ -1,4 +1,15 @@
 <template>
+    <transition name="fade">
+
+        <div
+            v-if="mostrarMensaje"
+            class="toast-personalizado">
+
+            {{ mensaje }}
+
+        </div>
+
+    </transition>
 
 <div class="container-fluid">
 
@@ -50,7 +61,7 @@
 
                 </div>
 
-                <button class="btn btn-primary">
+                <button class="btn btn-primary" @click="realizarCompra">
 
                     Comprar
 
@@ -66,7 +77,7 @@
 
                 <h5 class="dashboard-card-title">
 
-                    Cotización
+                    Cotización Compra
 
                 </h5>
 
@@ -105,7 +116,7 @@
 <script setup>
 
 import { ref, watch, onMounted, computed } from 'vue'
-import { obtenerCotizacion } from '../services/api'
+import { obtenerCotizacion, comprar } from '../services/api'
 
 const criptomoneda = ref("btc")
 
@@ -121,6 +132,9 @@ const total = computed(() => {
     return cantidad.value * cotizacion.value.precioCompra
 
 })
+const mostrarMensaje = ref(false)
+
+const mensaje = ref("")
 
 async function cargarCotizacion() {
 
@@ -134,6 +148,38 @@ async function cargarCotizacion() {
     catch (error) {
 
         console.error(error)
+
+    }
+
+}
+async function realizarCompra() {
+
+    try {
+
+        await comprar({
+
+            codigoCripto: criptomoneda.value,
+
+            cantidadCripto: Number(cantidad.value)
+
+        })
+
+        mensaje.value = "Compra realizada correctamente."
+
+        mostrarMensaje.value = true
+
+        setTimeout(() => {
+
+            mostrarMensaje.value = false
+
+        }, 5000)
+
+    }
+    catch(error){
+
+        console.error(error)
+
+        alert("Ocurrió un error al realizar la compra.")
 
     }
 

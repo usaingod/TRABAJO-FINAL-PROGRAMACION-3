@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "Comprar",
+    "RelativePath": "api/WalletApi/comprar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaccion",
+        "Type": "TrabajoFinalProgram3.Models.Transaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
     "Method": "ObtenerCotizacion",
     "RelativePath": "api/WalletApi/cotizacion/{codigoCripto}",
     "HttpMethod": "GET",
@@ -34,5 +50,47 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "ObtenerPortfolio",
+    "RelativePath": "api/WalletApi/portfolio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "ObtenerSaldo",
+    "RelativePath": "api/WalletApi/saldo/{codigoCripto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoCripto",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "Vender",
+    "RelativePath": "api/WalletApi/vender",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaccion",
+        "Type": "TrabajoFinalProgram3.Models.Transaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
