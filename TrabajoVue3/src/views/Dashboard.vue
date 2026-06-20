@@ -1,28 +1,3 @@
-<script setup>
-
-import { ref, onMounted } from 'vue'
-import Card from '../components/ui/Card.vue'
-import { obtenerPatrimonio } from '../services/api'
-
-const patrimonio = ref(0)
-
-onMounted(async () => {
-
-    try {
-
-        patrimonio.value = await obtenerPatrimonio()
-
-        console.log("Patrimonio:", patrimonio.value)
-
-    }
-    catch (error) {
-
-        console.error(error)
-
-    }
-
-})
-</script>
 
 <template>
 
@@ -50,7 +25,7 @@ onMounted(async () => {
 
                 <h2 class="dashboard-card-value">
 
-                    $ {{ patrimonio.toLocaleString()}}
+                     $ {{ patrimonio.toLocaleString()}} ARS
 
                 </h2>
 
@@ -85,3 +60,29 @@ onMounted(async () => {
 </div>
 
 </template>
+
+<script setup>
+    
+    import { ref, onMounted } from 'vue'
+    import Card from '../components/ui/Card.vue'
+    import { obtenerPatrimonio } from '../services/api'
+    
+    const patrimonio = ref(0)
+    
+    onMounted(async () => {
+    
+        try {
+    
+            patrimonio.value = await obtenerPatrimonio()
+    
+            console.log("Patrimonio:", patrimonio.value)
+    
+        }
+        catch (error) {
+    
+            console.error(error)
+    
+        }
+    
+    })
+</script>

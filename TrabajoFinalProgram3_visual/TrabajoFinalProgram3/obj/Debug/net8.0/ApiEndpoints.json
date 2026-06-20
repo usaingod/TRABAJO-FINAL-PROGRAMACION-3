@@ -33,6 +33,16 @@
   },
   {
     "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "ObtenerHistorial",
+    "RelativePath": "api/WalletApi/historial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
     "Method": "ObtenerPatrimonio",
     "RelativePath": "api/WalletApi/patrimonio",
     "HttpMethod": "GET",

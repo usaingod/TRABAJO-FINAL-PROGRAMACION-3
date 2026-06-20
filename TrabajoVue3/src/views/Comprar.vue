@@ -41,6 +41,8 @@
 
                         <option value="usdc">USDC</option>
 
+                        <option value="sol">Solana (SOL)</option>
+
                     </select>
 
                 </div>
@@ -83,7 +85,7 @@
 
                 <h2 class="dashboard-card-value">
 
-                    {{ cotizacion ? '$ ' + cotizacion.precioCompra.toLocaleString('es-AR') : '--' }}
+                    {{ cotizacion ? '$' + cotizacion.precioCompra.toLocaleString('es-AR') + ' ARS' : 'ARS $ --' }}
 
                 </h2>
 
@@ -93,13 +95,13 @@
 
                 <h5 class="dashboard-card-title">
 
-                    Total a pagar
+                    Total a pagar 
 
                 </h5>
 
                 <h2 class="dashboard-card-value">
 
-                    {{ '$ ' + total.toLocaleString('es-AR') }}
+                    $ {{ total.toLocaleString('es-AR') }} ARS
 
                 </h2>
 

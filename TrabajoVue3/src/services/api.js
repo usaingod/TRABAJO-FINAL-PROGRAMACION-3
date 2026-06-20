@@ -95,3 +95,16 @@ export async function obtenerPortfolio() {
     return await respuesta.json()
 
 }
+export async function obtenerHistorial() {
+
+    const respuesta = await fetch(`${API_URL}/WalletApi/historial`);
+
+    if (!respuesta.ok) {
+
+        throw new Error("Error al obtener el historial.");
+
+    }
+
+    return await respuesta.json();
+
+}

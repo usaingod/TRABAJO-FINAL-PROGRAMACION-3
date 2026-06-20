@@ -122,6 +122,12 @@ namespace TrabajoFinalProgram3.Services
 
             await _context.SaveChangesAsync();
         }
+        public async Task<List<Transaccion>> ObtenerHistorialAsync()
+        {
+            return await _context.Transacciones
+                .OrderByDescending(t => t.FechaHora)
+                .ToListAsync();
+        }
 
     }
 }

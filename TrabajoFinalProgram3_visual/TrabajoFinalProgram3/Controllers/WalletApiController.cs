@@ -57,5 +57,12 @@ namespace TrabajoFinalProgram3.Controllers
 
             return Ok(portfolio);
         }
+        [HttpGet("historial")]
+        public async Task<IActionResult> ObtenerHistorial()
+        {
+            var historial = await _walletService.ObtenerHistorialAsync();
+
+            return Ok(historial);
+        }
     }
 }

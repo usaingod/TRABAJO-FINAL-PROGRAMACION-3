@@ -32,7 +32,7 @@
 
             <p class="portfolio-price">
 
-                {{ '$ ' + cripto.valorEnPesos.toLocaleString('es-AR') }}
+                {{ '$ ' + cripto.valorEnPesos.toLocaleString('es-AR') + ' ARS' }}
 
             </p>
 
