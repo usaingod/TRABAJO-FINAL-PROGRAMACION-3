@@ -124,6 +124,8 @@ const criptomoneda = ref("btc")
 
 const cantidad = ref(0)
 
+//para enzo
+
 const cotizacion = ref(null)
 
 const total = computed(() => {
