@@ -108,3 +108,16 @@ export async function obtenerHistorial() {
     return await respuesta.json();
 
 }
+export async function obtenerVariacion() {
+
+    const respuesta = await fetch(`${API_URL}/WalletApi/variacion`);
+
+    if (!respuesta.ok) {
+
+        throw new Error("Error al obtener la variación.");
+
+    }
+
+    return await respuesta.json();
+
+}

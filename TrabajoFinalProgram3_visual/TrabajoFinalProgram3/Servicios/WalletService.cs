@@ -128,6 +128,38 @@ namespace TrabajoFinalProgram3.Services
                 .OrderByDescending(t => t.FechaHora)
                 .ToListAsync();
         }
+        public async Task<List<object>> ObtenerVariacionAsync()
+        {
+            var fechaLimite = DateTime.Now.AddDays(-10);
+            var historial = await _context.Transacciones
+                .Where(t => t.FechaHora >= fechaLimite)
+                .OrderBy(t => t.FechaHora)
+                .ToListAsync();
+
+            List<object> variacion = new();
+
+            decimal acumulado = 0;
+
+            foreach (var transaccion in historial)
+            {
+                if (transaccion.Accion == "Compra")
+                {
+                    acumulado += transaccion.Dinero;
+                }
+                else
+                {
+                    acumulado -= transaccion.Dinero;
+                }
+
+                variacion.Add(new
+                {
+                    Fecha = transaccion.FechaHora.ToString("dd/MM HH:mm"),
+                    Patrimonio = acumulado
+                });
+            }
+
+            return variacion;
+        }
 
     }
 }

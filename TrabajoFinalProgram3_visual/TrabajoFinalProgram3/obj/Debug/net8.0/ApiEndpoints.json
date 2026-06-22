@@ -89,6 +89,16 @@
   },
   {
     "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
+    "Method": "ObtenerVariacion",
+    "RelativePath": "api/WalletApi/variacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoFinalProgram3.Controllers.WalletApiController",
     "Method": "Vender",
     "RelativePath": "api/WalletApi/vender",
     "HttpMethod": "POST",

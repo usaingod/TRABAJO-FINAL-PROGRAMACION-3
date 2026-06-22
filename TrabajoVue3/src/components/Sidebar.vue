@@ -18,7 +18,7 @@
         <li class="nav-item mb-2">
             <RouterLink class="nav-link text-white" to="/">
                 <i class="bi bi-house-fill"></i>
-                Dashboard
+                Inicio
             </RouterLink>
         </li>
 

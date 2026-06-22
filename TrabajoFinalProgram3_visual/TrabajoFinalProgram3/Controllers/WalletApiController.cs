@@ -64,5 +64,12 @@ namespace TrabajoFinalProgram3.Controllers
 
             return Ok(historial);
         }
+        [HttpGet("variacion")]
+        public async Task<IActionResult> ObtenerVariacion()
+        {
+            var variacion = await _walletService.ObtenerVariacionAsync();
+
+            return Ok(variacion);
+        }
     }
 }
