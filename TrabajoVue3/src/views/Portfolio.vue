@@ -7,40 +7,41 @@
         Portfolio
 
     </h1>
-    <div class="row">
 
-    <div
-        class="col-12 mb-3"
-        v-for="cripto in portfolio"
-        :key="cripto.codigoCripto">
+    <div class="row g-4">
 
-        <div class="wallet-card portfolio-card">
+        <div
+            class="col-md-6"
+            v-for="cripto in portfolio"
+            :key="cripto.codigoCripto">
 
-            <h5 class="dashboard-card-title">
+            <div class="wallet-card portfolio-card">
 
-                {{ obtenerNombreCripto(cripto.codigoCripto) }}
+                <h5 class="dashboard-card-title">
 
-            </h5>
+                    {{ obtenerNombreCripto(cripto.codigoCripto) }}
 
-            <h2 class="portfolio-value">
+                </h5>
 
-                {{ cripto.cantidad }}
+                <h2 class="portfolio-value">
 
-                {{ cripto.codigoCripto.toUpperCase() }}
+                    {{ cripto.cantidad }}
 
-            </h2>
+                    {{ cripto.codigoCripto.toUpperCase() }}
 
-            <p class="portfolio-price">
+                </h2>
 
-                {{ '$ ' + cripto.valorEnPesos.toLocaleString('es-AR') + ' ARS' }}
+                <p class="portfolio-price">
 
-            </p>
+                    {{ '$ ' + cripto.valorEnPesos.toLocaleString('es-AR') + ' ARS' }}
+
+                </p>
+
+            </div>
 
         </div>
 
     </div>
-
-</div>
 
 </div>
 

@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\",
+  "WorkspaceRootPath": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\servicios\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\servicios\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\servicios\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\walletapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\walletapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\controllers\\walletapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\servicios\\criptoya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\servicios\\criptoya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\servicios\\criptoya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\bauti\\onedrive\\desktop\\trabajo final programacion 3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,41 +42,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Program.cs",
-              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Program.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Program.cs",
-              "RelativeToolTip": "TrabajoFinalProgram3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T02:39:32.527Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\appsettings.json",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\appsettings.json",
+              "RelativeToolTip": "TrabajoFinalProgram3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T13:08:28.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Transaccion.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\Transaccion.cs",
-              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Models\\Transaccion.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\Transaccion.cs",
-              "RelativeToolTip": "TrabajoFinalProgram3\\Models\\Transaccion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Program.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Program.cs",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Program.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T00:34:55.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-22T02:39:32.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Models\\Transaccion.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T00:34:55.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Data\\AppDbContext.cs",
               "RelativeToolTip": "TrabajoFinalProgram3\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,52 +99,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CriptoYa.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\CriptoYa.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\CriptoYa.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Servicios\\CriptoYa.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\CriptoYa.cs",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\CriptoYa.cs",
               "RelativeToolTip": "TrabajoFinalProgram3\\Servicios\\CriptoYa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T02:32:17.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T02:32:17.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransaccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T02:21:57.175Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TransaccionesController.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
-              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
-              "RelativeToolTip": "TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAzAAAAAAAAAA==",
+              "Title": "WalletApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "RelativeToolTip": "TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T02:21:57.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T20:24:19.481Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WalletApiController.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
-              "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
-              "RelativeToolTip": "TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T20:24:19.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "WalletService.cs",
-              "DocumentMoniker": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
-              "ToolTip": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
+              "ToolTip": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
               "RelativeToolTip": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T17:33:53.98Z",
               "EditorCaption": ""

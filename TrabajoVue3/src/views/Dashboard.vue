@@ -24,7 +24,7 @@
 
                 </h5>
 
-                <div style="height:400px">
+                <div style="height:220px">
 
                     <canvas ref="grafico"></canvas>
 

@@ -7348,23 +7348,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bauti\\.nuget\\packages\\": {},
+    "C:\\Users\\Christian Montenegro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj",
+      "projectUniqueName": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj",
       "projectName": "TrabajoFinalProgram3",
-      "projectPath": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj",
-      "packagesPath": "C:\\Users\\bauti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bauti\\OneDrive\\Desktop\\TRABAJO FINAL PROGRAMACION 3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\obj\\",
+      "projectPath": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj",
+      "packagesPath": "C:\\Users\\Christian Montenegro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bauti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Christian Montenegro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7441,7 +7441,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

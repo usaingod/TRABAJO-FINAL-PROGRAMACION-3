@@ -64,7 +64,16 @@
 
                     <td>
 
-                        {{ transaccion.accion }}
+                        <span
+                            :class="transaccion.accion === 'Compra'
+                            ? 'text-success'
+                            : 'text-danger'">
+
+                            <i class="bi bi-circle-fill me-2" style="font-size:8px"></i>
+
+                            {{ transaccion.accion }}
+
+                        </span>
 
                     </td>
 
