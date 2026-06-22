@@ -163,7 +163,7 @@
 
                         ticks: {
 
-                            color: '#94A3B8',
+                            color: '#ffffff',
 
                             maxTicksLimit: 8
 
@@ -187,7 +187,7 @@
 
                         ticks: {
 
-                        color: '#94A3B8',
+                        color: '#ffffff',
 
                         maxTicksLimit: 6,
 

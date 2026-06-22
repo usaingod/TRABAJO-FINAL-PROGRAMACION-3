@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|solutionrelative:trabajofinalprogram3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2F0C1A7-82D9-4C2B-921D-B531C916350C}|TrabajoFinalProgram3\\TrabajoFinalProgram3.csproj|c:\\users\\christian montenegro\\desktop\\trabajo-final-programacion-3\\trabajofinalprogram3_visual\\trabajofinalprogram3\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\appsettings.json",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\appsettings.json",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Program.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Program.cs",
@@ -71,7 +71,8 @@
               "RelativeToolTip": "TrabajoFinalProgram3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T02:39:32.527Z"
+              "WhenOpened": "2026-06-22T02:39:32.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TransaccionesController.cs",
               "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\TransaccionesController.cs",
@@ -123,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WalletApiController.cs",
               "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Controllers\\WalletApiController.cs",
@@ -135,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WalletService.cs",
               "DocumentMoniker": "C:\\Users\\Christian Montenegro\\Desktop\\TRABAJO-FINAL-PROGRAMACION-3\\TrabajoFinalProgram3_visual\\TrabajoFinalProgram3\\Servicios\\WalletService.cs",
               "RelativeDocumentMoniker": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
@@ -143,8 +144,7 @@
               "RelativeToolTip": "TrabajoFinalProgram3\\Servicios\\WalletService.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAAwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T17:33:53.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T17:33:53.98Z"
             }
           ]
         }
